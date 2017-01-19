@@ -109,4 +109,5 @@ function s3_uploads_autoload( $class_name ) {
 spl_autoload_register( 's3_uploads_autoload' );
 
 // Require AWS Autoloader file.
-require_once dirname( __FILE__ ) . '/lib/aws-sdk/aws-autoloader.php';
+// require_once dirname( __FILE__ ) . '/lib/aws-sdk/aws-autoloader.php';
+// this is removed since the sdk is now installed via composer
